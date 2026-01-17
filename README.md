@@ -1,4 +1,6 @@
-# 🚀 Deploy N8N within one minute using docker compose | AI Automation Tool | How To Host n8n For Free FOREVER 💻
+# 🚀 Deploy N8N within one minute using docker compose 💻
+
+> 🚀 AI Automation Tool | How To Host n8n For Free FOREVER 🚀
 
 ## 1. � Overview: What is n8n?
 
@@ -30,8 +32,7 @@ Deploy N8N in just **3 simple steps**:
 ```bash
 git clone https://github.com/meibraransari/N8N-Deploy-Using-Docker-Compose.git
 cd N8N-Deploy-Using-Docker-Compose
-cp -a env.sample .env
-nano .env # Update the environment variables
+cp -a env.sample .env && nano .env # Update the environment variables
 docker-compose up -d
 docker compose logs -f
 ```
