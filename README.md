@@ -66,7 +66,7 @@ SSL Certificate:
 Force SSL: True
 ```
 
-### ⚙️ Manual Nginx Configuration
+### ⚙️ Manual Nginx Configuration (Optional) if you have your own nginx server.
 ```bash
 server {
     listen 80;
