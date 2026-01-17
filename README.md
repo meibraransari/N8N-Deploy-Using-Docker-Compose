@@ -33,7 +33,14 @@ Deploy n8n in simple steps:
 git clone https://github.com/meibraransari/N8N-Deploy-Using-Docker-Compose.git
 cd N8N-Deploy-Using-Docker-Compose
 cp -a env.sample .env && nano .env # Update the environment variables
-docker-compose up -d
+docker compose up -d
+docker compose logs -f
+# Fix permission
+Error: EACCES: permission denied, open '/home/node/.n8n/config'
+docker compose down
+# set permissions to path in env file like "DOCKER_VOLUME_STORAGE=/mnt/docker-volumes"
+chmod -R 777 /mnt/docker-volumes/n8n/
+docker compose up -d
 docker compose logs -f
 ```
 
