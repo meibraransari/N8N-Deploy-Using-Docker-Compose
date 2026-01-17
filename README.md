@@ -1,8 +1,8 @@
-# 🚀 Deploy N8N Using Docker Compose 💻
+# � Deploy n8n with Docker Compose �
 
 > 🚀 AI Automation Tool | How To Host n8n For Free FOREVER 🚀
 
-## 1. ✅ Overview: What is n8n?
+## 🤖 What is n8n?
 
 **n8n** (pronounced "nodemation") is a powerful, **free and open-source** workflow automation tool that helps you connect different apps and services together. Think of it as a self-hosted alternative to tools like Zapier or Make (formerly Integgy), but with:
 
@@ -14,7 +14,7 @@
 
 ---
 
-## 2. ✅ Infrastructure Prerequisites & Environment Checklist
+## 📋 Prerequisites & Infrastructure Checklist
 
 Before you begin, make sure you have the following installed on your system:
 
@@ -26,9 +26,9 @@ Before you begin, make sure you have the following installed on your system:
 
 ---
 
-## 3. 🚀 Rapid Deployment: Quick Start Guide
-Deploy N8N in just **3 simple steps**:
-### 3.1. 📂 Step 1: Repository Initialization & Environment Configuration
+## 🚀 Quick Start Guide
+Deploy n8n in simple steps:
+### 📂 Clone & Configure Repository
 ```bash
 git clone https://github.com/meibraransari/N8N-Deploy-Using-Docker-Compose.git
 cd N8N-Deploy-Using-Docker-Compose
@@ -37,17 +37,17 @@ docker-compose up -d
 docker compose logs -f
 ```
 
-## 4. 🌐 Infrastructure Setup: DNS & SSL Configuration
-### 4.1. 🔗 Direct Service Access (No Proxy)
+## 🌐 Network: DNS & SSL Configuration
+### 🔗 Local Network Access
 ```
 http://192.168.1.100:5678
 ```
-### 4.2. 🌐 DNS Configuration via Technitium DNS Server
+### 📡 Technitium DNS Configuration
 https://dns.devopsinaction.lab/
 Point domain to IP address
 192.168.1.222 n8n.devopsinaction.lab
 
-### 4.3. 🛡️ Edge Proxy Implementation: Nginx Proxy Manager
+### 🛡️ Nginx Proxy Manager Setup
 https://npm.devopsinaction.lab/
 Domain Names n8n.devopsinaction.lab
 Forward Hostname/IP: 192.168.1.100
@@ -55,7 +55,7 @@ Forward Port: 5678
 SSL Certificate: 
 Force SSL: True
 
-### 4.4. ⚙️ Advanced: Manual Nginx Reverse Proxy Configuration
+### ⚙️ Manual Nginx Configuration
 ```bash
 server {
     listen 80;
@@ -97,20 +97,20 @@ server {
 }
 ```
 
-## 5. 🔓 Verifying Connectivity: Accessing the n8n Instance
+## 🔓 Accessing your n8n Instance
 https://n8n.devopsinaction.lab/
 
 
 ---
-# 🛠️ Advanced Mode: Manual Deployment Strategy
+# ⚙️ Advanced: Manual Deployment Strategy
 
-### 🏗️ Step 1: Project Workspace Provisioning
+### 🏗️ Setup Project Workspace
 
 ```bash
 mkdir n8n-docker && cd n8n-docker
 ```
 
-### 📝 Step 2: Service Definition & Environment Specification
+### 📝 Create Configuration Files
 
 Create a file named `docker-compose.yml` with the following content:
 
@@ -304,7 +304,7 @@ N8N_NATIVE_PYTHON_RUNNER=true
 #N8N_SSL_CERT=/home/node/certs/cert.pem
 ```
 
-### ⚡ Step 3: Container Orchestration & Initialization
+### ⚡ Initialize & Launch Services
 
 ```bash
 docker-compose up -d
@@ -312,17 +312,17 @@ docker-compose up -d
 
 That's it! 🎉 N8N is now running on your system.
 
-## 📋 Operations: System Monitoring & Observability
+## � Monitoring & Logs
 
-### 📜 Real-time Log Stream Monitoring
+### 📜 View System Logs
 
 ```bash
 docker compose logs -f
 ```
 
 
-## 🔗 Supplementary Resources & Documentation Links
-### 🤖 Official n8n Workflow Ecosystem & Documentation
+## � Resources & Documentation
+### 📖 Official n8n Documentation
 https://docs.n8n.io/hosting/
 https://docs.n8n.io/hosting/configuration/environment-variables/
 https://github.com/n8n-io
@@ -330,11 +330,11 @@ https://github.com/n8n-io/n8n
 https://n8n.io/workflows/
 https://n8n.io/sitemap-workflows.xml
 
-### 💡 Implementation Blueprints & Guides
+### 💡 Implementation Blueprints
 Very quick quickstart
 first AI agent
 
-### 🗂️ Extended Community Workflow Repositories
+### 🗂️ Community Workflow Repositories
 https://github.com/Zie619/n8n-workflows
 https://github.com/topics/n8n-workflows
 
