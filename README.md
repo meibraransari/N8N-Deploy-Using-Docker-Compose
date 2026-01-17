@@ -138,18 +138,9 @@ Password *
 
 
 ---
-# ⚙️ Advanced: Manual Deployment Strategy
+# ⚙️ Configuration file used in this project
 
-### 🏗️ Setup Project Workspace
-
-```bash
-mkdir n8n-docker && cd n8n-docker
-```
-
-### 📝 Create Configuration Files
-
-Create a file named `docker-compose.yml` with the following content:
-
+### 📝 docker-compose.yml
 ```yaml
 services:
   n8n-db:
@@ -243,8 +234,7 @@ services:
       - n8n
 ```
 
-Create a file named `.env` with the following content:
-
+### 📝 .env
 ```bash
 # ========================================
 # N8N Authentication Settings
@@ -340,33 +330,13 @@ N8N_NATIVE_PYTHON_RUNNER=true
 #N8N_SSL_CERT=/home/node/certs/cert.pem
 ```
 
-### ⚡ Initialize & Launch Services
-
-```bash
-docker-compose up -d
-```
-
-That's it! 🎉 N8N is now running on your system.
-
-## 📊 Monitoring & Logs
-
-### 📜 View System Logs
-
-```bash
-docker compose logs -f
-```
 ---
 ## 📝 License
 
 This guide is provided as-is for educational and professional use.
 
----
-
 ## 🤝 Contributing
-
 Feel free to suggest improvements or report issues via pull requests or the issues tab.
-
----
 
 ## 💼 Connect with Me 👇😊
 
@@ -376,8 +346,6 @@ Feel free to suggest improvements or report issues via pull requests or the issu
 *   👨‍💻 [**GitHub**](https://github.com/meibraransari?tab=repositories)
 *   💬 [**Telegram**](https://t.me/DevOpsinActionTelegram)
 *   🐳 [**Docker Hub**](https://hub.docker.com/u/ibraransaridocker)
-
----
 
 ### ⭐ If You Found This Helpful...
 
