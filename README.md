@@ -4,7 +4,7 @@
 
 ## 🤖 What is n8n?
 
-**n8n** (pronounced "n-eight-n") is a powerful, **free and open-source** workflow automation tool that helps you connect different apps and services together. Think of it as a self-hosted alternative to tools like Zapier or Make (formerly Integgy), but with:
+**n8n** (pronounced "n-eight-n") is a powerful, **free and open-source** workflow automation tool that helps you connect different apps and services together. Think of it as a self-hosted alternative to tools like [Zapier](https://zapier.com/) or [Make](https://www.make.com/en) (formerly Integgy), but with:
 
 - ✅ **No monthly fees** - Host it yourself for free forever
 - ✅ **Unlimited workflows** - Create as many automations as you need
