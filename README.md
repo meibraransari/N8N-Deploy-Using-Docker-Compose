@@ -237,13 +237,6 @@ services:
 ### 📝 .env
 ```bash
 # ========================================
-# N8N Authentication Settings
-# ========================================
-N8N_BASIC_AUTH_ACTIVE=true
-N8N_BASIC_AUTH_USER=user
-N8N_BASIC_AUTH_PASSWORD='N8N@2026'
-
-# ========================================
 # N8N Host & URL Configuration
 # ========================================
 N8N_IMAGE_TAG=latest
@@ -322,6 +315,13 @@ N8N_RUNNERS_BROKER_LISTEN_ADDRESS=0.0.0.0
 N8N_RUNNERS_AUTH_TOKEN=your-secret-here
 N8N_RUNNERS_TASK_BROKER_URI=http://n8n:5679
 N8N_NATIVE_PYTHON_RUNNER=true
+
+# ========================================
+# N8N Authentication Settings
+# ========================================
+N8N_BASIC_AUTH_ACTIVE=true
+N8N_BASIC_AUTH_USER=user
+N8N_BASIC_AUTH_PASSWORD='N8N@2026'
 
 # ========================================
 # SSL Certificate Settings (Optional)
