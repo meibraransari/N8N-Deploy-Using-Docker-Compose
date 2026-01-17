@@ -1,4 +1,4 @@
-# � Deploy n8n with Docker Compose �
+# 🚀 Deploy N8N with Docker Compose 🚀
 
 > 🚀 AI Automation Tool | How To Host n8n For Free FOREVER 🚀
 
@@ -99,6 +99,26 @@ server {
 
 ## 🔓 Accessing your n8n Instance
 https://n8n.devopsinaction.lab/
+
+> Fill form to create account
+
+### 💡 Implementation Blueprints
+- Very quick quickstart
+- First AI agent
+
+## 📚 Resources & Documentation
+### 📖 Official n8n Documentation
+- https://docs.n8n.io/hosting/
+- https://docs.n8n.io/hosting/configuration/environment-variables/
+- https://github.com/n8n-io
+- https://github.com/n8n-io/n8n
+- https://n8n.io/workflows/
+- https://n8n.io/sitemap-workflows.xml
+
+### 🗂️ Community Workflow Repositories
+- https://github.com/Zie619/n8n-workflows
+- https://github.com/topics/n8n-workflows
+
 
 
 ---
@@ -312,32 +332,13 @@ docker-compose up -d
 
 That's it! 🎉 N8N is now running on your system.
 
-## � Monitoring & Logs
+## 📊 Monitoring & Logs
 
 ### 📜 View System Logs
 
 ```bash
 docker compose logs -f
 ```
-
-
-## � Resources & Documentation
-### 📖 Official n8n Documentation
-https://docs.n8n.io/hosting/
-https://docs.n8n.io/hosting/configuration/environment-variables/
-https://github.com/n8n-io
-https://github.com/n8n-io/n8n
-https://n8n.io/workflows/
-https://n8n.io/sitemap-workflows.xml
-
-### 💡 Implementation Blueprints
-Very quick quickstart
-first AI agent
-
-### 🗂️ Community Workflow Repositories
-https://github.com/Zie619/n8n-workflows
-https://github.com/topics/n8n-workflows
-
 ---
 ## 📝 License
 
