@@ -246,7 +246,7 @@ DOCKER_VOLUME_STORAGE=/mnt/docker-volumes
 # ========================================
 N8N_IMAGE_TAG=latest
 N8N_HOST=n8n.devopsinaction.lab
-N8N_PROTOCOL=http
+N8N_PROTOCOL=https
 N8N_URL=https://n8n.devopsinaction.lab
 N8N_EDITOR_BASE_URL=https://n8n.devopsinaction.lab/
 N8N_WEBHOOK_URL=https://n8n.devopsinaction.lab
