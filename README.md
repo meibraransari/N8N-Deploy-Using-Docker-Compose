@@ -20,9 +20,9 @@ Before you begin, make sure you have the following installed on your system:
 
 | Requirement | Version | Check Command |
 |------------|---------|---------------|
-| � Docker | 20.10+ | `docker --version` |
+| 🐳 Docker | 20.10+ | `docker --version` |
 | 🔧 Docker Compose | 2.0+ | `docker-compose --version` |
-| �💻 Operating System | Linux/macOS/Windows | - |
+| 💻 Operating System | Linux/macOS/Windows | - |
 
 ---
 
