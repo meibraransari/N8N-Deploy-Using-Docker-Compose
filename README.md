@@ -237,6 +237,11 @@ services:
 ### 📝 .env
 ```bash
 # ========================================
+# Docker Volume Storage
+# ========================================
+DOCKER_VOLUME_STORAGE=/mnt/docker-volumes
+
+# ========================================
 # N8N Host & URL Configuration
 # ========================================
 N8N_IMAGE_TAG=latest
@@ -283,11 +288,6 @@ DB_POSTGRESDB_PASSWORD=Wo032FnQloAp7K
 # ========================================
 POSTGRES_NON_ROOT_USER=n8n
 POSTGRES_NON_ROOT_PASSWORD=Wo032FnQloAp7K
-
-# ========================================
-# Docker Volume Storage
-# ========================================
-DOCKER_VOLUME_STORAGE=/mnt/docker-volumes
 
 # ========================================
 # Health Check Settings
