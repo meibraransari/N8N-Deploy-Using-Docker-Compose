@@ -2,7 +2,7 @@
 
 > 🚀 AI Automation Tool | How To Host n8n For Free FOREVER 🚀
 
-## 1. � Overview: What is n8n?
+## 1. ✅ Overview: What is n8n?
 
 **n8n** (pronounced "nodemation") is a powerful, **free and open-source** workflow automation tool that helps you connect different apps and services together. Think of it as a self-hosted alternative to tools like Zapier or Make (formerly Integgy), but with:
 
@@ -101,8 +101,9 @@ server {
 https://n8n.devopsinaction.lab/
 
 
+---
+# 🛠️ Advanced Mode: Manual Deployment Strategy
 
-## 🛠️ Advanced Mode: Manual Deployment Strategy
 ### 🏗️ Step 1: Project Workspace Provisioning
 
 ```bash
