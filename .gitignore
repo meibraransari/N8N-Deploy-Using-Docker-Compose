@@ -1,0 +1,17 @@
+# Docker volumes
+n8n_data/
+postgres_data/
+
+# Environment files (if used later)
+.env
+.env.local
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
