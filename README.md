@@ -112,7 +112,12 @@ server {
 https://n8n.devopsinaction.lab/
 
 > Fill form to create account
-
+```
+Email *
+First Name *
+Last Name *
+Password *
+```
 ### 💡 Implementation Blueprints
 - Very quick quickstart
 - First AI agent
