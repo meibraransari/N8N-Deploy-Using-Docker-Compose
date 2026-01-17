@@ -1,4 +1,4 @@
-# 🚀 Deploy N8N within one minute using docker compose 💻
+# 🚀 Deploy N8N Using Docker Compose 💻
 
 > 🚀 AI Automation Tool | How To Host n8n For Free FOREVER 🚀
 
