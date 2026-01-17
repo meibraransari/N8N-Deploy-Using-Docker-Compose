@@ -43,17 +43,21 @@ docker compose logs -f
 http://192.168.1.100:5678
 ```
 ### 📡 Technitium DNS Configuration
+```
 https://dns.devopsinaction.lab/
 Point domain to IP address
 192.168.1.222 n8n.devopsinaction.lab
+```
 
 ### 🛡️ Nginx Proxy Manager Setup
+```
 https://npm.devopsinaction.lab/
 Domain Names n8n.devopsinaction.lab
 Forward Hostname/IP: 192.168.1.100
 Forward Port: 5678
 SSL Certificate: 
 Force SSL: True
+```
 
 ### ⚙️ Manual Nginx Configuration
 ```bash
